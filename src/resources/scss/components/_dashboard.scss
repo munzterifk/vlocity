@@ -1,0 +1,22 @@
+#recipe-accordion {
+    .card-header {
+        padding: $sm-size;
+        transition: all 600ms ease;
+
+        &:hover {
+            cursor: pointer;
+            background: #e6e6e6;
+        }
+
+        .accordion-title {
+            font-weight: bold;
+            pointer-events: none;
+        }
+
+        .accordion-subtitle {
+            font-size: .8rem;
+            font-weight: 600;
+            pointer-events: none;
+        }
+    }
+}
